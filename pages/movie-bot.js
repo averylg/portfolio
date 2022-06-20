@@ -14,6 +14,8 @@ export default function MovieBot() {
         that the bot presents to add a title to the watchlist. The watchlist contains the chosen movie and show titles and their vote counts
         and is stored on a MongoDB database. Users can then view the watchlist and cast their votes for movies and shows to watch. Ultimately,
         I want to branch this bot off to do more than just movie polling, and thus this bot is still being maintained and updated."
+        url="https://github.com/averylg/DiscordMovieBot"
+        siteName="GitHub Repo for the Movie Bot"
       />
     </div>
   )
