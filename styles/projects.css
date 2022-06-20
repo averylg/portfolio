@@ -1,0 +1,44 @@
+.gallery {
+  display: flex;
+  gap: 3.9vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry {
+  border: solid 2px #00d3f3;
+  border-radius: 8px;
+  padding: 0 3vw;
+  width: 30%;
+  height: 25vw;
+  margin-top: 3%;
+  box-shadow: 10px 5px 5px #0f0f0f;
+  opacity: 1;
+  object-fit: cover;
+  text-align: center;
+
+}
+
+.entry:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.title {
+  background-color: #00d3f3;
+  border-radius: 8px;
+}
+
+#disasterGuard {
+  background-image: url('../public/images/DisasterGuard.png');
+  object-position: 0%;
+}
+
+#oneMilLion {
+  background-image: url('../public/images/OneMilLion.png');
+}

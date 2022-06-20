@@ -1,0 +1,17 @@
+.list {
+  justify-content: center;
+  text-align: center;
+}
+
+.bpText {
+  padding: 0.01vw;
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.bpDesc {
+  padding: 0.5vw 1vw;
+  text-align: center;
+  font-size: x-large;
+}

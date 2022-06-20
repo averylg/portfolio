@@ -3,13 +3,12 @@
 }
 
 .main {
+  margin-top: 11vh;
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.h1 {
+  text-align: center;
 }
 
 .footer {
@@ -114,3 +113,4 @@
     flex-direction: column;
   }
 }
+

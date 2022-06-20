@@ -1,0 +1,94 @@
+.gallery {
+  display: flex;
+  gap: 3.9vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry {
+  border: solid 2px #00d3f3;
+  border-radius: 8px;
+  padding: 0 3vw;
+  width: 30%;
+  height: 25vw;
+  margin-top: 3%;
+  margin-bottom: -4.5%;
+  box-shadow: 10px 5px 5px #0f0f0f;
+  opacity: 1;
+  object-fit: cover;
+  text-align: center;
+}
+
+.entry:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: linear;
+}
+
+.entrySelected {
+  border: solid 2px #00d3f3;
+  border-radius: 8px;
+  padding: 0 3vw;
+  width: 30%;
+  height: 25vw;
+  margin-top: 3%;
+  margin-bottom: -4.5%;
+  box-shadow: 10px 5px 5px #0f0f0f;
+  opacity: 1;
+  object-fit: cover;
+  text-align: center;
+}
+
+.description {
+  border: solid 2px #00d3f3;
+}
+
+.title {
+  background-color: rgba(8, 57, 255, 0.5);
+  border-radius: 8px;
+}
+
+#disasterGuard {
+  background-image: url('../public/images/DisasterGuard.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#oneMilLion {
+  background-image: url('../public/images/OneMilLion.png');
+  background-size: cover;
+
+}
+
+#evolution {
+  background-image: url('../public/images/Evolution.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#discordBot {
+  background-image: url('../public/images/DiscordBot.PNG');
+  background-position: center;
+  background-size: 105%;
+}
+
+#sbs2 {
+  background-image: url('../public/images/SBS_2.webp');
+  background-size: cover;
+  background-position: 15%;
+}
+
+#paravoid {
+  background-image: url('../public/images/Paravoid.webp');
+  background-size: cover;
+}
+
+#pong {
+  background-image: url('../public/images/Pong.PNG');
+  background-size: cover;
+}
