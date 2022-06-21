@@ -43,10 +43,11 @@ export default function Experience() {
         jobTitle="ARCS IT Student Assistant"
         company="Georgia Tech College of Sciences"
         date="May 2022 - Present"
-        jobDesc="In my current role, I service and purchase computers
+        jobDesc="Currently, I service computers
         and systems for students and faculty of the Georgia Tech
-        College of Sciences. My job involves installing Georgia Tech
-        builds of Linux, Windows, and MacOS operating systems and"
+        College of Sciences. My role involves making purchases for and
+        configuring builds of Linux, Windows, and MacOS operating systems
+        for Georgia-Tech-issued computers."
       />
 
     </div>
