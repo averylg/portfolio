@@ -61,6 +61,11 @@ export default function Home() {
               page="/evolution"
             />
             <Project name="Portfolio" page="/site-description" />
+            <Project
+              name="Out of Pocket"
+              imgName={ps.outOfPocketTitle}
+              page="/out-of-pocket"
+            />
             <Project name="Paravoid" imgName={ps.paravoid} page="/paravoid" />
             <Project
               name="Side-By-Side"
@@ -72,6 +77,7 @@ export default function Home() {
               imgName={ps.pong}
               page="/sfml-pong"
             />
+            
           </div>
         </div>
       </main>

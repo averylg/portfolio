@@ -92,3 +92,9 @@
   background-image: url('../public/images/Pong.PNG');
   background-size: cover;
 }
+
+#outOfPocketTitle {
+  background-image: url('../public/images/OutOfPocketTitle.png');
+  background-size: 110%;
+  background-position: center;
+}
